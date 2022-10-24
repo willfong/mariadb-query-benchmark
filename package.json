@@ -1,0 +1,16 @@
+{
+	"name": "poc-innodb-cluster-pk",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:willfong/poc-innodb-cluster-pk.git",
+	"author": "Will Fong <willfong@hey.com>",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"mariadb": "^3.0.1"
+	},
+	"scripts": {
+		"test1": "node -r dotenv/config test1.mjs",
+		"test2": "node -r dotenv/config test2.mjs"
+	}
+}
